@@ -1,0 +1,240 @@
+<mjml>
+  <mj-head>
+    <mj-title>Special Halloween</mj-title>
+    <mj-attributes>
+      /* background colors */
+      <mj-class name="light-red" background-color="#F85F56" />
+      <mj-class name="white" background-color="#FFFFFF" />
+      <mj-class name="black" background-color="#000000" />
+      <mj-class name="dark-red" background-color="#A0160B" />
+
+      /* Font styles */
+      <mj-class name="h-1" font-size="24px" line-height="33px" font-weight="bold" />
+      <mj-class name="h-2" font-size="22px" line-height="29px" font-weight="bold" />
+      <mj-class name="p-1" font-size="16px" line-height="19px" />
+      <mj-class name="p-2" font-size="12px" line-height="19px" />
+      <mj-class name="p-3" font-size="14px" line-height="10px" padding-top="15px" padding-bottom="15px" />
+      <mj-class name="p-4" font-size="12px" line-height="4px" padding-top="15px" padding-bottom="15px" />
+
+      /* MJML Attributes */
+      <mj-text font-family="Open sans, Arial" color="#000000" padding="0" />
+      <mj-image padding="0" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <!--Hero 1 Image-->
+    <mj-section mj-class="dark-red" border-radius="10px">
+      <mj-column>
+        <mj-text mj-class="p-2" align="center" color="#FFFFFF">
+          Email tidak terlihat seperti semestinya? klik di <a href="[webversion]"><strong>sini</strong></a> untuk versi web
+        </mj-text>
+        <mj-text mj-class="p-2" align="center" color="#FFFFFF"> Hari, Tanggal, Bulan, Tahun </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="hero.png" alt="Hero Banner" />
+      </mj-column>
+    </mj-section>
+    <!-- End Hero 1 Image -->
+
+    <!-- Welcome Session -->
+    <mj-section border="8px double #A0160B" padding="1px">
+      <mj-column background-color="#ffffff">
+    <mj-text mj-class="p-1" line-height="2" align="center"> Selamat hari... <strong>[Email Name]!</strong> <br></br></mj-text>
+    <mj-text mj-class="p-1" line-height="2" align="justify" padding-left="8px">
+      PukulEnam Newsletter hari ini memuat berita utama terhangat diantaranya : <ol>
+        <li>JUDUL KONTEN <strong>(Kesehatan💊 Finansial💵 Gaming🎮 Teknologi💻)</strong></li>
+        <li>JUDUL KONTEN <strong>(TAG XX Copy disini)</strong></li>
+        <li>Tambahin Kalo Perlu! <strong>(TAG XX Copy disini)</strong></li>
+      </ol> Jangan lupa untuk cek MK;SA Corner dibawah ya! <br></br> Selamat membaca dan semoga harimu menyenangkan! 
+    </mj-text>
+  </mj-column>
+</mj-section>
+    <!-- End Welcome Session -->
+
+    <mj-section>
+      
+    </mj-section>
+
+    <!-- Stocks Market -->
+    <mj-section border="8px double #A0160B" padding="1px">
+      <mj-column background-color="#ffffff">
+    <mj-text mj-class="h-2" color="#f85f56" align="center" padding-bottom="8px"> Kondisi Pasar </mj-text>
+    <mj-table font-size="14px" line-height="3" table-layout="auto">
+      <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:16px 0;">
+        <td style="font-size:18px;">🟢</td>
+        <td style="font-size:16px;">USD-IDR 💵</td>
+        <td style="text-align:center;">[USID-PR]</td>
+        <td style="color:[USID-CO]; text-align:center;">[USID-CH]</td>
+      </tr>
+      <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:16px 0;">
+        <td style="font-size:18px;">🟢</td>
+        <td style="font-size:16px;">IHSG 📈</td>
+        <td style="text-align:center;">[IHSG-PR]</td>
+        <td style="color:[IHSG-CO]; text-align:center;">[IHSG-CH]</td>
+      </tr>
+      <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:16px 0;">
+        <td style="font-size:18px;">🟢</td>
+        <td style="font-size:16px;">Dow 📈</td>
+        <td style="text-align:center;">[DOW-PR]</td>
+        <td style="color:[DOW-CO]; text-align:center;">[DOW-CH]</td>
+      </tr>
+      <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:12px 0;">
+        <td style="font-size:18px;">🔴</td>
+        <td style="font-size:16px;">Nasdaq 📈</td>
+        <td style="text-align:center;">[NAS-PR]</td>
+        <td style="color:[NAS-CO]; text-align:center;">[NAS-CH]</td>
+      </tr>
+      <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:12px 0;">
+        <td style="font-size:18px;">🔴</td>
+        <td style="font-size:16px;">BTC-USD 🪙</td>
+        <td style="text-align:center;">[BTC-PR]</td>
+        <td style="color:[BTC-CO]; text-align:center;">[BTC-CH]</td>
+      </tr>
+      <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:12px 0;">
+        <td style="font-size:18px; width:6%">🔴</td>
+        <td style="font-size:16px;">ETH-USD 🪙</td>
+        <td style="text-align:center;">[ETH-PR]</td>
+        <td style="color:[ETH-CO]; text-align:center;">[ETH-CH]</td>
+      </tr>
+    </mj-table>
+    <mj-text mj-class="p-2" align="center"> Per [SERVER-UPDATE] </mj-text>
+  </mj-column>
+</mj-section>
+<!-- End Stocks Market -->
+
+<mj-section>
+  
+</mj-section>
+
+<!-- Main News -->
+    <mj-section border="8px double #A0160B" padding="1px">
+      <mj-column background-color="#ffffff">
+        <mj-text mj-class="h-2" padding-left="8px" color="#f85f56" align="left" font-weight="bold"> TAG BERITA </mj-text>
+        <mj-text mj-class="h-2" align="center"> JUDUL BERITA </mj-text>
+        <mj-image src="https://via.placeholder.com/350x98?text=PukulEnam+Newsletter+Template" padding="0" alt="Gambar Artikel 1">
+        </mj-image>
+        <mj-text mj-class="p-2" padding-bottom="8px" font-style="italic" align="center"> Sumber gambar </mj-text>
+        <mj-text mj-class="p-1" padding-left="8px" align="justify">
+          <strong> MK;SA (Mager Kepanjangan, Singkat Aja)</strong> <br>Intinya… Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+<!-- End Main News -->
+
+<mj-section>
+  
+</mj-section>
+
+<!-- MKSA CORNER -->
+    <mj-section border="8px double #A0160B" padding="1px">
+      <mj-column background-color="#ffffff">
+        <mj-text mj-class="h-2" padding-left="8px" color="#f85f56" align="left" font-weight="bold"> Lagi Trend Nih (MK;SA Corner) </mj-text>
+        <mj-image src="https://via.placeholder.com/350x98?text=PukulEnam+Newsletter+Template" padding-top="8px" alt="MKSA1">
+        </mj-image>
+        <mj-text mj-class="p-2" padding-bottom="8px" font-style="italic" align="center"> Sumber gambar </mj-text>
+      <mj-text mj-class="p-1" padding-right="8px" align="justify">
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <a href="[MKSA1_LINK]">Selengkapnya...</a></li><br>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <a href="[MKSA2_LINK]">Selengkapnya...</a></li><br>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <a href="[MKSA3_LINK]">Selengkapnya...</a></li><br>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <a href="[MKSA4_LINK]">Selengkapnya...</a></li><br>
+          </ul>
+        </mj-text>
+
+        <mj-image src="https://via.placeholder.com/350x98?text=PukulEnam+Newsletter+Template" padding-top="8px" alt="MKSA1">
+        </mj-image>
+        <mj-text mj-class="p-2" padding-bottom="8px" font-style="italic" align="center"> Sumber gambar </mj-text>
+      <mj-text mj-class="p-1" padding-right="8px" align="justify">
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <a href="[MKSA1_LINK]">Selengkapnya...</a></li><br>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <a href="[MKSA2_LINK]">Selengkapnya...</a></li><br>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <a href="[MKSA3_LINK]">Selengkapnya...</a></li><br>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <a href="[MKSA4_LINK]">Selengkapnya...</a></li><br>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+<!-- End MKSA CORNER -->
+
+<mj-section>
+  
+</mj-section>
+
+<!-- Writer Noted -->
+    <mj-section border="8px double #A0160B" padding="1px">
+      <mj-column background-color="#ffffff">
+        <mj-text mj-class="h-2" padding-left="8px" color="#f85f56" align="left" font-weight="bold"> Catatan Penulis 💕 </mj-text>
+        <mj-text mj-class="p-1" padding-left="8px" line-height="2" align="justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+<!-- End Writer Noted -->
+
+<mj-section>
+  
+</mj-section>
+
+<!-- Donate -->
+    <mj-section border="8px double #A0160B" padding="1px">
+      <mj-column background-color="#ffffff">
+        <mj-text mj-class="h-2" padding-left="8px" color="#f85f56" align="left" font-weight="bold"> Donasi 💌 </mj-text>
+        <mj-text mj-class="p-1" padding-left="8px" line-height="2" align="justify">
+          Terima kasih sudah membaca edisi hari ini. Sekarang, teman-teman pembaca setia bisa kirim hadiah untuk PukulEnam melalui tombol dibawah ini ya 🥰
+        </mj-text>
+        <mj-image href="https://newsletter.pukulenam.id/l/qoxCU3q5Wiiiwosb3RfZtw/vavYRtuwmYR763FQ0lGPQG3Q/GKT98DBZ7UaTcUGnHAxcwg" src="saweria.png" alt="saweria" width="180px" padding-top="8px" />
+        <mj-text mj-class="p-1" padding-left="8px" line-height="2" align="justify">
+          Yukk dukung PukulEnam agar terus semangat memberikan berita terhangat buat kamu!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+<!-- End Donate -->
+
+<mj-section>
+  
+</mj-section>
+
+<!-- Footer -->
+<mj-section mj-class="dark-red" border-radius="20px">
+  <mj-column>
+    <mj-social font-size="15px" icon-size="40px" mode="horizontal">
+      <mj-social-element src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/instagram_logo.png" href="https://instagram.com/pukulenam.id" alt="Logo Instagram">
+      </mj-social-element>
+      <mj-social-element src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/linkedin_logo.png" href="https://www.linkedin.com/company/pukulenam" alt="Logo LinkedIn">
+      </mj-social-element>
+      <mj-social-element src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/email_logo.png" href="mailto:contact@pukulenam.id" alt="Logo Email">
+      </mj-social-element>
+    </mj-social>
+
+    <mj-divider border-width="2px" />
+
+    <mj-text align="justify" color="#FFFFFF" mj-class="p-3" padding-left="25px"> Ditulis Oleh <a style="font-weight: bold; color: #fff" href="#"> Lorem Ipsum</a> </mj-text>
+    <mj-text align="justify" color="#FFFFFF" mj-class="p-3" padding-left="25px"> Disunting Oleh <a style="font-weight: bold; color: #fff" href="#">Lorem Ipsum</a> </mj-text>
+    <mj-text align="justify" color="#FFFFFF" mj-class="p-3" padding-left="25px"> Data Market <a style="font-weight: bold; color: #fff" href="#">Yahoo Finance</a> </mj-text>
+
+    <mj-divider border-width="2px" />
+
+    <mj-text align="center" color="#FFFFFF" mj-class="p-4" > Email ini dikirimkan untuk <a style="font-weight: bold; color: #fff" href="#"> tes@gmail.com</a> </mj-text>
+    <mj-text align="center" color="#FFFFFF" mj-class="p-4" > Belum mendaftar dan tertarik menerima email dari kami? Daftar di <a style="font-weight: bold; color: #fff" href="#"> sini </a> </mj-text>
+    <mj-text align="center" color="#FFFFFF" mj-class="p-4" > Mengubah konfirgurasi email atau berhenti berlangganan? Klik di <a style="font-weight: bold; color: #fff" href="#"> sini </a> </mj-text>
+
+    <mj-divider border-width="2px" />
+
+    <mj-text align="center" color="#FFFFFF" mj-class="p-2" padding-top="15px"> &copy; 2023 PukulEnam </mj-text>
+    <mj-text align="center" color="#FFFFFF" mj-class="p-2" padding-top="15px"> Jln. Pemuda III No 22, Denpasar, Bali, Indonesia, 80226 </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section mj-class="white">
+      <mj-column width="50%">
+        <mj-image padding-top="30px" width="200px" href="https://aws.amazon.com/what-is-cloud-computing" src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/aws_logo.png" alt="Powered by AWS" alt="Powered by AWS" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image width="200px" href="https://www.nvidia.com/en-us/startups/" src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/nvidia-badge.png" alt="Powered by AWS" alt="Powered by NVIDIA" />
+      </mj-column>
+    </mj-section>
+<!-- End Footer -->
+  </mj-body>
+</mjml>
