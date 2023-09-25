@@ -1,0 +1,35 @@
+<mjml>
+  <mj-head>
+    <mj-title>Unsubscribe</mj-title>
+    <mj-attributes>
+      /* background colors */
+      <mj-class name="light-red" background-color="#F85F56" />
+      <mj-class name="white" background-color="#FFFFFF" />
+
+      /* FONT */
+      <mj-text font-family="Open sans, Arial" color="#000000" padding="0" />
+      <mj-class name="h-1" font-size="24px" line-height="33px" font-weight="bold" />
+      <mj-class name="p-1" font-size="14px" line-height="19px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section> </mj-section>
+    <mj-section> </mj-section>
+    <mj-section> </mj-section>
+
+    <mj-section mj-class="light-red" padding="2px" border-radius="20px">
+      <mj-column mj-class="white" border-radius="18px" width="600px">
+        <mj-image src="emoji.png" alt="Goodbye" width="100px" />
+        <mj-text mj-class="h-1" align="center" padding-top="8px"> Selamat Berpisah </mj-text>
+
+        <mj-text mj-class="p-1" align="center" padding-top="10px"> Berubah pikiran dan ingin berlangganan kembali ? Klik Tombol dibawah </mj-text>
+        <mj-button background-color="#F85F56" font-weight="bold" color="#FFFFFF" border-radius="40px" inner-padding="20px" padding="10px" href="#">RE-SUBSCRIBE</mj-button>
+
+        <mj-text mj-class="p-1" align="center" padding="10px"> Berikan kami <a style="font-weight: bold" href="#"> saran dan masukan</a> untuk meningkatkan kualitas kami kedepan</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column> </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
